@@ -109,7 +109,7 @@ The following preprocessing pipeline was applied (implemented as modular, reusab
 | Logistic Regression | BoW | ~0.66 | ~0.66 |
 | Logistic Regression | TF-IDF | ~0.70 | ~0.70 |
 | Naive Bayes | BoW | ~0.72 | ~0.72 |
-| Naive Bayes | TF-IDF | ~0.74 | ~0.74 |
+| Naive Bayes | TF-IDF | **~0.74** | **~0.74** |
 | Random Forest | BoW | ~0.60 | ~0.60 |
 | Random Forest | TF-IDF | ~0.60 | ~0.60 |
 | DNN | BoW | ~0.63 | ~0.63 |
@@ -119,13 +119,13 @@ The following preprocessing pipeline was applied (implemented as modular, reusab
 | GRU | GloVe (200d) | ~0.71 | ~0.71 |
 | Bi-GRU | GloVe (200d) | ~0.71 | ~0.71 |
 | GRU | Skip-gram (200d) | ~0.72 | ~0.72 |
-| Bi-GRU | Skip-gram (200d) | **~0.7244** | **~0.72** |
+| Bi-GRU | Skip-gram (200d) | ~0.7244 | ~0.72 |
 | SimpleRNN | GloVe / Skip-gram | ~0.65–0.70 | ~0.64–0.70 |
 | Bi-SimpleRNN | GloVe / Skip-gram | ~0.68–0.71 | ~0.68–0.71 |
 
 ### 🏆 Best Performing Model
 
-**Bi-GRU + Skip-gram embeddings** achieved the highest accuracy of **72.44%**, outperforming all other configurations.
+**Naive Bayes + TF-IDF** achieved the highest accuracy of **74%**, outperforming all other configurations.
 
 ### 🔻 Worst Performing Model
 
